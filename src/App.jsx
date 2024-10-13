@@ -31,7 +31,7 @@ function App() {
       }
 
       if (scrollPosition < secondImageThreshold) {
-        document.body.style.background = "url('https://s4.ezgif.com/tmp/ezgif-4-183a9b792c.gif')";
+        document.body.style.background = "url('https://i.gifer.com/MPyj.gif')";
         document.body.style.backgroundAttachment = 'fixed';
       } 
       else if (scrollPosition >= secondImageThreshold && scrollPosition <= thirdImageThreshold) {
