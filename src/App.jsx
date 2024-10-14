@@ -9,7 +9,7 @@ import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
-
+import gif from './assets/MPyj.gif'
 function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -31,8 +31,10 @@ function App() {
       }
 
       if (scrollPosition < secondImageThreshold) {
-        document.body.style.background = "url('https://s4.ezgif.com/tmp/ezgif-4-183a9b792c.gif')";
+        document.body.style.background = `url(${gif})`;
         document.body.style.backgroundAttachment = 'fixed';
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center'; 
       } 
       else if (scrollPosition >= secondImageThreshold && scrollPosition <= thirdImageThreshold) {
         document.body.style.background = "url('https://img.freepik.com/free-vector/gradient-black-backgrounds-with-golden-frames_23-2149166648.jpg?t=st=1728801708~exp=1728805308~hmac=2b763a9a696529dcb13e26b1fa08c47f91ddd9444b0af918bc11d77ace0c0036&w=996')";

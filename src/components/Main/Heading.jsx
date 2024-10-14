@@ -26,7 +26,7 @@ function Heading() {
     <div className='container m-4 p-4 h-full flex flex-col lg:flex-row gap-x-8 w-full items-center' id="home">
       <div className='flex flex-col lg:items-start items-center'>
         <div className='text-[#8b8b8b] text-3xl lg:text-5xl p-2 m-2 text-center lg:text-left' data-aos='fade-right'>
-          Hi, I am <span className='text-green-500'> Himanshu Pantwal </span>
+          Hi, I am <span className='text-green-500 qwitcher-grypen-bold'> Himanshu Pantwal </span>
         </div>
         <div className='font-mono m-2 mx-3 p-2 flex gap-1 text-green-500 text-2xl lg:text-3xl items-center w-full'>
           I am a
