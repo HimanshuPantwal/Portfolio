@@ -9,7 +9,7 @@ import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
-import gif from './assets/MPyj.gif'
+import gif from './assets/2z7w.gif'
 function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -31,9 +31,8 @@ function App() {
       }
 
       if (scrollPosition < secondImageThreshold) {
-        document.body.style.background = `url(${gif})`;
+        document.body.style.background = `url('https://i.gifer.com/SljW.gif')`;
         document.body.style.backgroundAttachment = 'fixed';
-        document.body.style.backgroundSize = 'cover';
         document.body.style.backgroundPosition = 'center';
       }
       else if (scrollPosition >= secondImageThreshold && scrollPosition <= thirdImageThreshold) {
