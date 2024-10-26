@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Button from '../Button/Button';
-import CV from '../../assets/HimanshuPantwal_InternshalaResume (4).pdf'
+import CV from '../../assets/1.pdf'
 function Heading() {
   const textArr = ["Web Developer", "Software Developer", "Python Developer"];
   const [text, setText] = useState("Programmer");
